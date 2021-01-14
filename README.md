@@ -23,9 +23,12 @@ std::map<std::string, std::function<void(CContext*, CVContext*)>> mCmds =
 ```
 
 # How can I include this to my project?
-If you are makinga cli application (like ftp) then use the file cli_main as your main file.
 
-If you want to implement this to your GUI application, you can do this (Remember to delete the `cli_main` file.): 
+Clone This into your project folder.
+
+If you are makinga cli application (like ftp) then use the file main as your main file.
+
+If you want to implement this to your GUI application, you can do this (Remember to delete the `main` file.): 
 ```cpp
 // This a random function simulating the functionality of a read gui lib.
 // This funciton is called when the line is sent
